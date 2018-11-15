@@ -1,0 +1,47 @@
+body{
+    background: lightblue;
+}
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    color: darkgreen;
+    font-size: 60px;
+    text-decoration: underline;
+    border: 10px;
+
+}
+h2 {
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+}
+
+.boxset {
+    height: 400px;
+    width: 100%;
+    background: darkgray;
+    position: fixed;
+    z-index: -1;
+}
+img {
+    display: block; 
+    margin: auto; 
+}
+p {
+    text-align: center;
+    display: block;
+    margin: auto;
+    color:rgb(21, 73, 11);
+    background: lightslategray;
+    font-size: 25px;
+    width: 50%;
+    border: 3px solid #333;
+}
+ul {
+    list-style-position: inside;
+    text-align: center;
+    color:blueviolet;
+    font-size: 25px;
+}
