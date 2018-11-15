@@ -15,6 +15,7 @@ h2 {
     text-align: center;
     color: darkblue;
     font-size: 35px;
+    text-decoration: underline;
 }
 
 .boxset {
@@ -34,14 +35,20 @@ p {
     display: block;
     margin: auto;
     color:rgb(21, 73, 11);
-    background: lightslategray;
+    background: transparent;
     font-size: 25px;
-    width: 50%;
-    border: 3px solid #333;
+    width: 30%;
+    border: 3px dashed #333;
 }
 ul {
     list-style-position: inside;
     text-align: center;
     color:blueviolet;
     font-size: 25px;
+}
+a {
+    color: green;
+}
+a:visited {
+    color: orangered;
 }
