@@ -1,73 +1,11 @@
 body{
     background-image: url("images/skulls.png");
 }
-h1 {
-    text-align: center;
-    margin-left: 25px;
-    top: 15px;
-    position: fixed;
-    color: darkgreen;
-    font-size: 40px;
-    text-decoration: underline;
-    border: 10px;
-
+/* Navbar is fixed so this pushes it away from the top so its not under the nav */
+.two {
+    position: relative;
+    top: 100px;
 }
-h2 {
-    text-align: center;
-    color: darkblue;
-    font-size: 35px;
-    text-decoration: underline;
-}
-nav {
-    background-color: lightgreen;
-}
-.boxset {
-    height: 400px;
-    width: 100%;
+.card {
     background: transparent;
-    position: fixed;
-    z-index: -1;
-}
-img {
-    position: fixed; 
-    left: 50px;
-    top: 105px;
-}
-.card-panel {
-    position: fixed;
-    top: 325px;
-    width: 180px;
-    left: 35px;
-}
-
-/* p { */
-    /* text-align: center;
-    display: block;
-    margin: auto;
-    color:rgb(21, 73, 11);
-    background: transparent;
-    font-size: 25px;
-    width: 30%;
-} */
-.s6 {
-    display: block;
-    margin: auto;
-}
-ul {
-    list-style-position: inside;
-    text-align: center;
-    color:blueviolet;
-    font-size: 25px;
-}
-a {
-    color: green;
-}
-nav .brand-logo {
-    color: darkgreen;
-}
-nav ul a {
-    color: darkgreen;
-}
-a:visited {
-    color: orangered;
 }

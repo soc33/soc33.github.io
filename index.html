@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8" />
     <title>
@@ -6,103 +7,161 @@
     </title>
     <!--reseting autostylings from html-->
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <!--Linkning materialize CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Linkning Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <!--linking css-->
-    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">SLPages</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="images/wedding-makeup.jpg" height="200" width="200"></a>
-            <a class="carousel-item" href="#two!"><img src="images/mewithkids.jpg" height="200" width="200"></a>
-            <a class="carousel-item" href="#three!"><img src="images/download1.jpg" height="200" width="200"></a>
-            <a class="carousel-item" href="#four!"><img src="images/download2.jpg" height="200" width="200"></a>
-            <a class="carousel-item" href="#five!"><img src="images/download3.jpg" height="200" width="200"></a>
+<body>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">
+                        <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top"
+                            alt="">
+                        SLPages
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Professional Profile
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="https://soc33.github.io/Basic-Portfolio/" target="_blank">Portfolio</a>
+                                    <a class="dropdown-item" href="https://github.com/soc33" target="_blank">github</a>
+                                    <a class="dropdown-item" href="www.linkedin.com/in/sarah-o-luning" target="_blank">LinkedIn</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!--separating navbar from content-->
+
+        <div class="container two">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="row">
+                        <h1>About me</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="images/wedding-makeup.jpg" class="img-fluid" alt="headshot"/>
+                        </div>
+                        <div class="col-sm-9">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a quibusdam
+                                molestiae
+                                perspiciatis obcaecati. Nam ullam est eius corporis quae, reiciendis vel quo, qui
+                                hic
+                                soluta officia ipsa. Corporis, enim! Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Laudantium ipsam deleniti inventore. Excepturi culpa, voluptas enim sequi
+                                necessitatibus unde tempore possimus esse distinctio minima ab optio vel animi
+                                officia
+                                illo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quod
+                                veritatis laboriosam accusantium, fugiat obcaecati ratione quasi illo quia
+                                cupiditate
+                                corporis, molestiae rem aperiam commodi inventore, quaerat omnis explicabo tenetur.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+            <br><br>
+
+
+            UCF Alumni, former Elementary school and middle school teacher, former singer, dabbles in art, loves
+            puzzles,
+            scuba
+            certified, favorite subject in school was math :)
+            <p>Quidem dicta et quae eveniet libero repudiandae consectetur inventore perferendis cum possimus
+                deserunt
+                hic, cupiditate tempore ullam pariatur veritatis, eum optio magnam. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Magni explicabo perspiciatis dicta quod aspernatur quam reiciendis
+                consequatur! Corporis, autem odit quam dolorum quisquam fugit eligendi culpa porro eum quibusdam
+                numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat error nam, cumque fugiat
+                nisi odio ipsa officia. Sunt nostrum atque nihil voluptatem impedit blanditiis veritatis quae eius
+                necessitatibus. Asperiores, reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Obcaecati consectetur totam laborum inventore optio tempora fugiat, debitis quisquam, id neque eum
+                explicabo cum! Quaerat sed, qui rem aspernatur ullam quae. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Veniam exercitationem eum at quod ab quis totam nihil, aperiam nesciunt aut
+                consequatur obcaecati autem ad dignissimos id corrupti quisquam minima sed? Lorem ipsum dolor sit
+                amet
+                consectetur adipisicing elit. Sed laborum, perspiciatis deserunt voluptatibus unde odio libero nemo
+                alias voluptate optio quisquam vitae eos ullam possimus iure mollitia qui excepturi molestias!
+                Lorem
+                ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt eum cumque saepe nisi, voluptatem
+                numquam
+                alias minima, ipsa asperiores quis corrupti ipsam nihil impedit in commodi natus, quisquam possimus
+                error?</p>
+            <h2>
+                Personal Pages and Projects
+            </h2>
+            <br>
+            <ul>
+                <li>
+                    <!--Email not working yet-->
+                    <strong>Email: </strong> <a href="mailto:soc33@msn.com">soc33@msn.com</a>
+                </li>
+                <li>
+                    <strong>Github: </strong> <a href="https://github.com/soc33" target="_blank">soc33</a>
+                </li>
+                <li>
+                    <!--add portfolio later-->
+                    <strong>Portfolio: </strong> <a href="https://soc33.github.io/Basic-Portfolio/" target="_blank">Handmade
+                        Website</a>
+                </li>
+                <li>
+                    <strong>LinkedIn: </strong> <a href="www.linkedin.com/in/sarah-o-luning" target="_blank">Sarah
+                        Luning</a>
+                </li>
+            </ul>
+
+        </div>
+
     </div>
 
-    <!--dividing the screen into two columns-->
-    <div class="row">
-
-        <div class="col s3">
-          <!-- left navigation panel -->
-            <h1>Sarah Luning</h1>
-            <img src="images/wedding-makeup.jpg" alt="headshot" height=200" Width="150" />
-            <br><br>
-            <div class="row">
-                    <div class="col s12 m5">
-                      <div class="card-panel lime lighten-2">
-                        <span class="green-text text-darken-4">UCF Alumni, former Elementary school and middle school teacher, former singer, dabbles in art, loves puzzles, scuba certified, favorite subject in school was math :)
-                        </span>
-                      </div>
-                    </div>
-            </div>
-
-        </div>
-  
-        <div class="col s9">
-          <!-- right page content  -->
-          <br><br><br>
-            <div class="row">
-                    <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                        <span class="card-title">Pertinent Information</span>
-                        <p>My name is Sarah Luning, formerly Sarah Collins. <br> <br>
-            
-                            I began my coding journey August 2017 <br> <br>
-                            
-                            I can code in: <br>
-                            <!--because making it a list made it crazy looking-->
-                            -html<br>
-                            -CSS<br>
-                            <br></p>
-                        </div>
-                        <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                    </div>
-            </div>
-
-        </div>
-  
-      </div>
-
-   
-    <!--new section-->
-    <h2>
-        Personal Pages and Projects
-    </h2>
-    <br>
-    <ul>
-        <li>
-            <!--Email not working yet-->
-            <strong>Email: </strong> <a href="mailto:soc33@msn.com">soc33@msn.com</a>
-        </li>
-        <li>
-            <strong>Github: </strong> <a href="https://github.com/soc33" target="_blank">soc33</a>
-        </li>
-        <li>
-            <!--add portfolio later-->
-            <strong>Portfolio: </strong> <a href="https://soc33.github.io/Basic-Portfolio/" target="_blank">Handmade Website</a>
-        </li>
-        <li>
-            <strong>LinkedIn: </strong> <a href="www.linkedin.com/in/sarah-o-luning" target="_blank" >Sarah Luning</a>
-        </li>
-    </ul>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
