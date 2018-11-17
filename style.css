@@ -4,9 +4,10 @@ body{
 h1 {
     text-align: center;
     margin-left: 25px;
+    top: 1px;
     position: fixed;
     color: darkgreen;
-    font-size: 60px;
+    font-size: 40px;
     text-decoration: underline;
     border: 10px;
 
@@ -27,18 +28,28 @@ h2 {
 }
 img {
     position: fixed; 
-    left: 25px;
-    top: 100px;
+    left: 50px;
+    top: 105px;
 }
-p {
-    text-align: center;
+.card-panel {
+    position: fixed;
+    top: 325px;
+    width: 180px;
+    left: 35px;
+}
+
+/* p { */
+    /* text-align: center;
     display: block;
     margin: auto;
     color:rgb(21, 73, 11);
     background: transparent;
     font-size: 25px;
     width: 30%;
-    border: 3px dashed #333;
+} */
+.s6 {
+    display: block;
+    margin: auto;
 }
 ul {
     list-style-position: inside;
