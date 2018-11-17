@@ -4,7 +4,7 @@ body{
 h1 {
     text-align: center;
     margin-left: 25px;
-    top: 1px;
+    top: 15px;
     position: fixed;
     color: darkgreen;
     font-size: 40px;
@@ -18,7 +18,9 @@ h2 {
     font-size: 35px;
     text-decoration: underline;
 }
-
+nav {
+    background-color: lightgreen;
+}
 .boxset {
     height: 400px;
     width: 100%;
@@ -59,6 +61,12 @@ ul {
 }
 a {
     color: green;
+}
+nav .brand-logo {
+    color: darkgreen;
+}
+nav ul a {
+    color: darkgreen;
 }
 a:visited {
     color: orangered;
