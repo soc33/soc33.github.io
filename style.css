@@ -9,3 +9,8 @@ body{
 .card {
     background: transparent;
 }
+@media screen and (max-width: 768px) {
+    .two {
+        width: 600px;
+    }
+}
