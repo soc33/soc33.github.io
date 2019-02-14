@@ -1,0 +1,37 @@
+@font-face {
+    font-family: name;
+    src: url("../fonts/TheJacklyn.ttf");
+}
+body{
+    font-family: name;
+}
+/* Navbar is fixed so this pushes it away from the top so its not under the nav */
+/* .two {
+    position: relative;
+    top: 100px;
+}
+.card {
+    background: transparent;
+}
+@media screen and (max-width: 768px) {
+    .two {
+        width: 600px;
+    }
+}
+.bg-dark {
+    color: #0718c1;
+} */
+.header {
+    /* width: 100%; */
+    max-width: none;
+    background-image: url("../images/dark_wood.png");
+
+}
+.jumbo {
+    max-width: none;
+}
+#name {
+    font-size: 150px;
+    color: white;
+    margin-left: 500px;
+}
