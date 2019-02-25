@@ -1,6 +1,6 @@
 @font-face {
     font-family: name;
-    src: url("../fonts/TheJacklyn.ttf");
+    src: url("../fonts/calling.otf");
 }
 body{
     font-family: name;
@@ -11,4 +11,14 @@ body{
     position: fixed;
     margin-top: 5%;
     margin-left: 5%;
+    background-color: brown;
 }
+.links {
+    background-color: rgb(255, 161, 161);
+}
+a {
+    color: black;
+}
+/* .title {
+    font-size: 
+} */
