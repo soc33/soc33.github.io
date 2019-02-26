@@ -19,6 +19,40 @@ body{
 a {
     color: black;
 }
-/* .title {
-    font-size: 
-} */
+#nameAnimation {
+    /* display: none; */
+    margin-top: 200px;
+    color:  rgb(255, 161, 161);
+    opacity: 0.01;
+}
+.row {
+    margin-top: 5%;
+}
+.nameOfCard {
+    background-color: brown;
+}
+.cardInfo {
+    background-color:  rgb(255, 161, 161);
+}
+.card {
+    background-color: brown;
+}
+.smallScreenHeader {
+    display: none;
+    background-color: brown;
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .options {
+        display: none;
+    }
+    .card {
+        margin: 5%;
+    }
+    .container-fluid {
+        padding: 0;
+    }
+    .smallScreenHeader {
+        display: block;
+    }
+}
