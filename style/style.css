@@ -37,6 +37,13 @@ a {
 .card {
     background-color: brown;
 }
+
+.show {
+    z-index: 1;
+}
+.hide {
+    z-index: 0;
+}
 .smallScreenHeader {
     display: none;
     background-color: brown;
