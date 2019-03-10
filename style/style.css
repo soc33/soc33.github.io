@@ -6,27 +6,47 @@ body{
     font-family: name;
     background-image: url(../images/kitykatimg.png);
 }
-
 .options {
     position: fixed;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 5%;
     background-color: brown;
+    /* opacity: 0.01; */
 }
 .links {
     background-color: rgb(255, 161, 161);
 }
 a {
-    color: black;
+    color: brown;
+}
+a:hover {
+    color: beige;
 }
 #nameAnimation {
     /* display: none; */
-    margin-top: 200px;
+    margin-top: 50%;
     color:  rgb(255, 161, 161);
     opacity: 0.01;
 }
-.row {
+#indexOptions {
+    opacity: 0.01;
+    color:  rgb(255, 161, 161);
+}
+.row2 {
     margin-top: 5%;
+    display: block;
+}
+/* .row {
+    margin-top: 5%;
+} */
+.last {
+    margin-bottom: 15%;
+}
+.spacer {
+    margin-bottom: 8%;
+}
+.spacer2 {
+    margin-top: 10%;
 }
 .nameOfCard {
     background-color: brown;
