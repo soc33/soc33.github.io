@@ -5,6 +5,7 @@
 body{
     font-family: name;
     background-image: url(../images/kitykatimg.png);
+    overflow-x: hidden;
 }
 .options {
     position: fixed;
@@ -16,11 +17,17 @@ body{
 .links {
     background-color: rgb(255, 161, 161);
 }
-a {
+a, .projectText {
     color: brown;
+}
+.projectLink {
+    color: rgb(255, 161, 161);
 }
 a:hover {
     color: beige;
+}
+.mainLink {
+    font-size: 25px;
 }
 #nameAnimation {
     /* display: none; */
@@ -48,9 +55,9 @@ a:hover {
 .spacer2 {
     margin-top: 10%;
 }
-.nameOfCard {
+/* .nameOfCard {
     background-color: brown;
-}
+} */
 .cardInfo {
     background-color:  rgb(255, 161, 161);
 }

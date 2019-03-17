@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="../../style/style.css">
     <!-- linking my javascript -->
     <script src="../javascript/app.js"></script>
-    <script type="text/javascript" src="assets/javascript/data.js"></script>
+    <script type="text/javascript" src="../javascript/data.js"></script>
     <!-- linking font awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
         integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
@@ -45,20 +45,24 @@
                     Pages
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item links"><a class="link-text" href="../pages/facts.html" id="aboutLink">
+                    <li class="list-group-item links"><a class="link-text mainLink" href="../pages/facts.html"
+                            id="aboutLink">
                             About
                             Me </a><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></li>
-                    <li class="list-group-item links"><a class="link-text" href="../pages/projects.html"
-                            id="featuredLink">Featured Projects</li>
-                    <li class="list-group-item links"><a class="link-text" href="#all">All
+                    <li class="list-group-item links"><a class="link-text mainLink" href="../pages/projects.html"
+                            id="aboutLink">
+                           Projects </a><i class="fa fa-arrow-circle-right" aria-hidden="true"></i><br>
+                    <a class="link-text" href="#featured"
+                            id="featuredLink"> - Featured Projects<br>
+                    <a class="link-text" href="#all"> - All
                             projects</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-
-    <div class="row topics" id="featured">
+    <div class="row spacer" id="featured"></div>
+    <div class="row ">
         <div class="col-lg-3 col-md-4"></div>
         <div class="col-lg-6 col-md-7">
             <div class="card CardStyle">
@@ -77,8 +81,8 @@
                                 <div class="carousel-item active">
                                     <img src="../../images/safetyfirst.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>Safely</h5>
-                                        <p>Safely is a web app (mobile responsive) that helps users determine their
+                                        <h5 class="projectText">Safely</h5>
+                                        <p class="projectText">Safely is a web app (mobile responsive) that helps users determine their
                                             safety in new and unknown areas by pulling the area's crime information from
                                             the Orlando Police API</p>
                                     </div>
@@ -86,15 +90,15 @@
                                 <div class="carousel-item">
                                     <img src="../../images/train.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>Second slide label</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h5 class="projectText">Second slide label</h5>
+                                        <p class="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="../../images/minecraft.jpg" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>Third slide label</h5>
-                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                        <h5 class="projectText">Third slide label</h5>
+                                        <p class="projectText">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +119,8 @@
         </div>
     </div>
 
-    <div class="row topics" id="all">
+    <div class="row spacer spacer2" id="all"></div>
+    <div class="row">
         <div class="col-lg-3 col-md-4"></div>
         <div class="col-lg-6 col-md-7">
             <div class="card CardStyle">

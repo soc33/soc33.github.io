@@ -8,7 +8,6 @@ function showLinks() {
   $("#indexOptions").animate({opacity: "1"}, 3000);
 }
 setTimeout(showLinks, 5000);
-// import {projectArrayOfObjects} from  './data.js';
 $(document).ready(function () {
   console.log(projectArrayOfObjects.length);
 
@@ -20,7 +19,7 @@ $(document).ready(function () {
     var newDiv = $("<div class='card-body'>");
     var newText = $("<p class='card-text'>").text(projectArrayOfObjects[i].text);
     var newTitle = $("<h1 class='card-header'>").text(projectArrayOfObjects[i].name);
-    var newLink = $("<a>").attr("href", projectArrayOfObjects[i].link).text("Click here to check out project " + parseInt(i + 1));
+    var newLink = $("<a class='projectLink'>").attr("href", projectArrayOfObjects[i].link).text("Click here to check out project " + parseInt(i + 1));
     if (i < projectArrayOfObjects.length - 1) {
       newText.append(newLink);
     }

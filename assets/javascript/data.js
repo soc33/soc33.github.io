@@ -1,3 +1,4 @@
+// exports = { projectArrayOfObjects }
 const projectArrayOfObjects = [
     project1 = {
         name: "Cheezy Puff Game",
@@ -155,5 +156,3 @@ const projectArrayOfObjects = [
     }
 
 ];
-
-export = { projectArrayOfObjects };
